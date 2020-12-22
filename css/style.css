@@ -1,0 +1,573 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Baloo 2', cursive; */
+/* font-family: 'Raleway', sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+}
+.top-header{
+  background: #efefef;
+  padding: 10px 0;
+}
+.top-header p{
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: #7f7f7f;
+  margin: 0;
+}
+.top-header ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.top-header ul li{
+  
+}
+.top-header ul li a{
+  color: #7f7f7f;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.top-header ul li a:hover{
+  color:#ff9b1a;
+}
+
+
+
+.navbar {
+  padding: 0;
+  padding: 15px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #161616;
+  font-size: 14px;
+  /* font-weight: 600; */
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #7f7f7f;
+} 
+.btn-primary{
+  background-color: #ff9b1a;
+  color: #fff !important;
+  /* padding: 5px 0px; */
+  font-size: 14px !important;
+  font-weight: 600;
+  border:none;
+  border-radius: 50px;
+}
+.btn-primary:hover{
+  background: #ca7300;
+  text-decoration: none;
+}
+
+
+.banner{
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner .row{
+  min-height: 500px;
+}
+.banner h1{
+  font-size: 52px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+}
+.banner ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+}
+.banner ul li{
+  color: #fff;
+  padding: 25px 0;
+}
+.banner ul li h5{
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-serif;
+}
+.banner ul li h6{
+  text-transform: capitalize;
+  font-family: 'Raleway', sans-seri
+}
+.btn-transparent{
+  background-color: transparent;
+  border: 1px solid grey;
+  margin-left: 15px;
+  padding: 8px 6px;
+}
+.banner .btn-primary{
+  font-size: 14px !important;
+  padding: 8px 25px;
+}
+
+
+.verify-item{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  box-shadow: 0px 0px 1px 0px #848586;
+  border-radius: 5px;
+}
+.verify-item:hover{
+  background-image: url(../images/coin.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.verify-item i{
+  font-size: 50px;
+  color: #f78f2f;
+  position: relative;
+}
+.verify-item:hover i{
+  color: #fff;
+}
+.verify-item h3{
+  font-size: 20px;
+  padding: 20px 0px;
+  margin: 0;
+  position: relative;
+}
+.verify-item:hover h3{
+  color: #fff;
+}
+.verify-item p{
+  color: #545454;
+  font-size: 14px;
+  margin: 0;
+  position: relative;
+}
+.verify-item:hover p{
+  color: #fff;
+}
+.before{
+ position: relative;
+ padding: 30px; 
+}
+.before::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  border-radius: 5px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ddb112+0,fd7911+100 */
+background: rgb(221,177,18); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(221,177,18,1) 0%, rgba(253,121,17,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(221,177,18,1) 0%,rgba(253,121,17,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(221,177,18,1) 0%,rgba(253,121,17,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddb112', endColorstr='#fd7911',GradientType=0 ); /* IE6-9 */
+  transition: .4s all ease-in-out;
+  opacity: 0;
+}
+.before:hover::before{
+  opacity: .8;
+  height: 100%;
+}
+/* .before i{
+  font-size: 25px;
+ } */
+
+
+
+.about-us{
+}
+.heading{
+}
+.heading h1{
+  color: #424242;  
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+}
+.heading p{
+  color: #424242;  
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.heading span{
+  height: 5px;
+  width: 0px;
+  display: block;
+  margin: auto;
+  background: #fb8f2c;
+  transition: .6s all ease-in-out;
+}
+.heading:hover span{
+  width: 50px;
+}
+.about-us h5{
+padding-top: 15px;
+color: #424242;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight:600;
+}
+.about-us p{
+color: #5b5b5b;
+margin-top: 10px;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 300;
+}
+.btn-view-more{
+  background-color: transparent;
+  border: 1px solid grey;
+  margin-left: 15px;
+  padding: 8px 15px;
+  color: #424242;
+  font-size: 14px !important;
+  border-radius: 50px;
+}
+
+
+
+.simple-step{
+  background-image: url(../images/Banner-coin.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+.step-img{
+    text-align: end;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+}
+.step-img img{
+    width: 70%;
+}
+.simple-step-content{
+}
+.simple-step-content h3{
+    color: #fff;
+    font-size: 27px;
+    text-transform: capitalize;
+    /* margin: 0; */
+    margin-top: 35px;
+}
+.simple-step-content span{
+  height: 3px;
+  width: 0px;
+  display: inline-block;
+  margin: auto;
+  background: #ff9b1a;
+  transition: .6s all ease-in-out;
+}
+.simple-step-content:hover span{
+  width: 60px;
+}
+.rotate-box{
+}
+.rotate-box ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 15px 0;
+}
+.rotate-box ul li{
+    color: #fff;
+    margin-right: 25px;
+}
+.rotate-box ul li span{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: 3px solid #ff9b1a;
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+.rotate-box ul li h5{
+    color: #fff;
+}
+.rotate-box ul li p{
+    color: #fff;
+}
+
+
+.transactions{
+  background-color: #ff9b1a;
+  font-family: 'Raleway', sans-serif;
+  padding: 30px 0;
+}
+.transactions h2{
+ color: #fff;
+}
+.transactions p{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+
+
+.top-left, .left, .left-bottom, .top-right, .right, .right-bottom{
+  color: #f85554;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+}
+.top-left::before, .right-bottom::before {
+ position: absolute;
+ content: '';
+ left: 0;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ border: 1px solid #f85554;
+ border-radius: 5px;
+ transform: rotate(45deg);
+}
+.left::before, .right::before{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #77d37b;
+  border-radius: 5px;
+  transform: rotate(45deg);
+}
+.left-bottom::before, .top-right::before{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #77d2d6;
+  border-radius: 5px;
+  transform: rotate(45deg);
+}
+.circle-img{
+  position: relative;
+}
+.top-left{
+position: absolute;
+top: -15px;
+left: 30%;
+}
+.left{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+}
+.left-bottom{
+  position: absolute;
+  top: 90%;
+  left: 30%;
+}
+.top-right{
+position: absolute;
+top: -15px;
+right: 30%;
+}
+.right{
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: translate(-20%, -50%);
+}
+.right-bottom{
+  position: absolute;
+  top: 90%;
+  right: 30%;
+}
+.top-left-text{
+  position: absolute;
+  top: 65px;
+  left: -10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-right-text{
+  position: absolute;
+  top: 65px;
+  left: -10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.left-text{
+  position: absolute;
+  top: 63px;
+  left: -40px;
+  font-family: 'Montserrat', sans-serif;
+}
+.right-text{
+  position: absolute;
+  top: 63px;
+  left: -10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.left-bottom-text{
+  position: absolute;
+  top: 65px;
+  left: -10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.right-bottom-text{
+  position: absolute;
+  top: 65px;
+  left: -5px;
+  font-family: 'Montserrat', sans-serif;
+} 
+.top-left-text h6, .left-text h6, .left-bottom-text h6, .top-right-text h6, .right-text h6, .right-bottom-text h6{
+  color: #252525;
+  font-size: 16px;
+  font-weight: 400;
+}
+.left i, .right i{
+  color: #77d37b;
+}
+.left-bottom i, .top-right i{
+  color: #77d2d6;
+}
+
+
+
+
+.team-expert{
+}
+.team-expert-heading{
+}
+.team-expert-heading h1{
+  color: #424242;  
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+}
+.team-expert .team-expert-heading p{ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.team-expert-heading span{
+  height: 5px;
+  width: 0px;
+  display: block;
+  margin: auto;
+  background: #fb8f2c;
+  transition: .6s all ease-in-out;
+}
+.team-expert-heading:hover span{
+  width: 50px;
+}
+.person-details h5{
+padding-top: 15px;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight:600;
+text-transform: uppercase;
+color: #424242; 
+}
+.person-details p{
+margin-top: 10px;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+color: #fb8f2c;
+}
+
+
+
+.contact{
+  background-image: url(../images/Banner-coin-consultation.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-heading h1{
+  color: #fff;  
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+}
+.contact-heading span{
+  height: 5px;
+  width: 0px;
+  display: block;
+  margin: auto;
+  background: #fb8f2c;
+  transition: .6s all ease-in-out;
+}
+.contact-heading:hover span{
+  width: 50px;
+}
+input[type="submit"]{
+  padding: 8px 40px;
+  border: 1px solid #f18f34;
+  border-radius: 25px;
+  transition: .2s all ease-in-out;
+}
+input[type="submit"]:hover{
+  background-color: #f18f34;
+  border-color: #f18f34;
+}
+.form-group textarea{
+  background-color: transparent;
+}
+.form-group input{
+background-color: transparent;
+}
+.form-group input::placeholder{
+  color: #fff;
+}
+.form-group textarea::placeholder{
+  color: #fff;
+}
+.form-control:focus {
+  color: transparent;
+  background-color: transparent;
+  border-color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+.blog{
+}
+.blog h1{
+  color: #424242;  
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+}
+.blog p{ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.blog span{
+  height: 5px;
+  width: 0px;
+  display: block;
+  margin: auto;
+  background: #fb8f2c;
+  transition: .6s all ease-in-out;
+}
+.blog:hover span{
+  width: 50px;
+}
