@@ -519,6 +519,8 @@ input[type="submit"]{
   border: 1px solid #f18f34;
   border-radius: 25px;
   transition: .2s all ease-in-out;
+  color: #fff;
+  font-weight: 600;
 }
 input[type="submit"]:hover{
   background-color: #f18f34;
